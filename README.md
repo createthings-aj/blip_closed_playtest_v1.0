@@ -22,6 +22,22 @@ Get the latest files from **[Releases](../../releases/latest)**:
 
 You only need to do this once.
 
+### No admin password? (work or school Macs)
+
+If **Open Anyway** asks for an administrator name and password you don't have, use Terminal instead:
+
+1. Drag **Blip** into **Applications** as above.
+2. Open **Terminal** (Spotlight: press ⌘ Space and type *Terminal*).
+3. Paste this line and press **Return**:
+
+   ```
+   xattr -dr com.apple.quarantine /Applications/Blip.app
+   ```
+
+4. Double-click **Blip**. It now opens normally.
+
+If Terminal says *Permission denied*: drag Blip to your **Desktop** instead, run `xattr -dr com.apple.quarantine ~/Desktop/Blip.app`, then move Blip into Applications.
+
 ## Install on Windows
 
 1. Right-click the `.zip` → **Extract All** → **Extract**. Keep the whole folder together.
