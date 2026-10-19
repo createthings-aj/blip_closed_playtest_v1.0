@@ -24,10 +24,13 @@ You only need to do this once.
 
 ## Install on Windows
 
-1. Right-click the `.zip` → **Extract All**, and keep the whole folder together.
-2. Double-click **Blip.exe**.
-3. If Windows says *"Windows protected your PC"*, click **More info → Run anyway**. (Blip isn't code-signed yet.)
-4. Allow the microphone when asked.
+1. Right-click the `.zip` → **Extract All** → **Extract**. Keep the whole folder together.
+2. Open the extracted **Blip** folder and double-click **Blip.exe**.
+3. Windows will say *"Windows protected your PC"*: click **More info**, then **Run anyway**. (Blip isn't code-signed yet; it's safe.)
+4. Allow the **microphone** when asked, so "Hey Blip" and Talk work.
+   If Blip can't hear you: **Settings → Privacy & security → Microphone** → turn on **Let desktop apps access your microphone**.
+
+You only need to do step 3 once.
 
 ## Signing up
 
