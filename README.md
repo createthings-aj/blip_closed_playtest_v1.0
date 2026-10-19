@@ -18,7 +18,11 @@ Get the latest files from **[Releases](../../releases/latest)**:
 3. Open **System Settings → Privacy & Security** and scroll down to **Security**.
 4. You'll see *"Blip" was blocked to protect your Mac*. Click **Open Anyway** and enter your Mac password.
 5. Open Blip again and click **Open Anyway** in the next box.
-6. Allow the **microphone** and **speech recognition** when asked, so "Hey Blip" and Talk work.
+6. Allow the permissions Blip asks for:
+   - **Microphone** and **Speech Recognition**, so "Hey Blip" and Talk work.
+   - **Screen & System Audio Recording**, so the visualizers move with your music. Blip only listens to the sound and never records your screen.
+
+   If the visualizers don't move: open **System Settings → Privacy & Security → Screen & System Audio Recording**, turn on **Blip**, then quit and reopen Blip.
 
 You only need to do this once.
 
